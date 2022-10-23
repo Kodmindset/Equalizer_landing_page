@@ -16,19 +16,17 @@
 
  html,body{
   overflow-x: hidden;
+  
  } 
 
   body {
     font-family: 'IBM Plex Sans',sans-serif;
-    
-    background-image: url(./assets/bg-main-mobile.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+   
+   
   }
   
   .container {
-    width: 375px;
+    width: 100vw;
     height: 1945px;
     opacity: 1;
     position: relative;
@@ -110,7 +108,7 @@ line-height: 26px;
   /*end header*/
   .main {
     width:100vw;
-  height:100vh;
+    height: 1024px;
   
   
   position: absolute;
