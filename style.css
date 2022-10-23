@@ -16,10 +16,12 @@
 
  html,body{
   overflow-x: hidden;
+  
  } 
 
   body {
     font-family: 'IBM Plex Sans',sans-serif;
+
 background-color: #F2F2F2;
     background-image: url(./assets/bg-main-mobile.png);
     background-repeat: no-repeat;
@@ -29,6 +31,14 @@ background-color: #F2F2F2;
   
   .container {
     width: 100wv;
+    height:1945=======
+   
+   
+  }
+  
+  .container {
+    width: 100vw;
+
     height: 1945px;
     opacity: 1;
     position: relative;
@@ -110,7 +120,7 @@ line-height: 26px;
   /*end header*/
   .main {
     width:100vw;
-  height:100vh;
+    height: 1024px;
   
   
   position: absolute;
