@@ -21,14 +21,14 @@
   body {
     font-family: 'IBM Plex Sans',sans-serif;
     
-    background-image: url(./assets/bg-main-mobile.png);
+  background-color: #F2F2F2;;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
   }
   
   .container {
-    width: 375px;
+    width: 100vw;
     height: 1945px;
     opacity: 1;
     position: relative;
@@ -44,10 +44,10 @@
   /* start header*/
   .header{
     height: 520px;
-    
+    overflow: hidden;
   }
   .bg_main_device {
-    width: 375px;;
+    width: 375px;
     height: 480px;
     background-image: url(./assets/bg-main-mobile.png);
     background-repeat: no-repeat;
@@ -405,27 +405,28 @@ line-height: 26px;
       /*for tablet*/
       @media screen and (min-width: 768px) and (max-width: 1024px) {
         body{
-         width: 100vw;
+          overflow: hidden;
         }
         .container{
         position: relative;
-        width: 768px;
+        width: 100vw;
         height: 1781px;
         opacity: 1;
-        position: relative;
+       object-fit: cover;
         top: 0px;
         left: 0px;
-        overflow: hidden;
+       
       }
       .header{
         height: 696px;
         margin-left: 39px;
+        overflow: hidden;
       }
       .bg_main_device {
         position: absolute;
         background-image: url(./assets/bg-main-tablet.png);
         background-repeat: no-repeat;
-        background-position: center center;
+        background-position: center;
         background-size: cover;
         opacity: 1;
         position: absolute;
@@ -489,7 +490,7 @@ line-height: 26px;
 
       .main {
         position: absolute;
-        width: 696px;
+        width: 100vw;
         height: 834px;
         left: 33px;
         margin-top: -80px;
@@ -772,17 +773,20 @@ line-height: 26px;
      
       @media all and (min-width: 1025px){
         body{
-          width: 100vw;
+         overflow: hidden;
         }
         .container{
+          width: 100vw;
           text-decoration: none;
         position: relative;
-        width: 1440px;
+        width: 100vw;
         
         opacity: 1;
         position: relative;
        
         overflow: hidden;
+        display: flex;
+        flex-shrink: 1;
       }
       .header{
         width: 1440px;
@@ -964,7 +968,7 @@ line-height: 26px;
        
         padding: 0;
        
-        width: 1110px;
+        width: 100vw;
         height: 79px
 
       }
@@ -1009,6 +1013,7 @@ line-height: 26px;
         height: 20px;
         margin-top: -48px;
         margin-left: 1010px;
+
                 
         }
         
