@@ -21,12 +21,24 @@
 
   body {
     font-family: 'IBM Plex Sans',sans-serif;
+
+background-color: #F2F2F2;
+    background-image: url(./assets/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .container {
+    width: 100wv;
+    height:1945=======
    
    
   }
   
   .container {
     width: 100vw;
+
     height: 1945px;
     opacity: 1;
     position: relative;
@@ -37,7 +49,7 @@
     background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  overflow: hidden;
+  
   }
   /* start header*/
   .header{
@@ -49,7 +61,7 @@
     height: 480px;
     background-image: url(./assets/bg-main-mobile.png);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     opacity: 1;
     position: absolute;
