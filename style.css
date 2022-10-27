@@ -44,7 +44,6 @@
   }
 
   .container {
-   
     width: 375px;
     height: 1945px;
     opacity: 1;
@@ -54,11 +53,10 @@
     overflow: hidden;
     background:#F2F2F2;
     background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  align-items: center;
-  margin: auto;
-  
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    margin: auto;
   }
   /* start header*/
   .header{
@@ -187,6 +185,7 @@
     line-height: 34px;
     overflow: hidden;
   }
+ 
     .container_premium > .h2 {
     width: 302px;
     color: rgba(252,250,249,1);
@@ -273,6 +272,10 @@
     gap: 6px;
     place-content: center;  
   }
+  .ios:active{
+    background: #66E2DC;
+
+  }
   .cons{
     width: 142px;
     height: 32px;
@@ -301,8 +304,12 @@
     grid-template-columns: 1fr 2fr;
     gap: 6px;
     place-content: center;
+    
   }
   
+  .andriod:active{
+    background: #FFB964;
+  }
   .andriod_download {
     font-weight: 700;
     font-size: 18px;
@@ -446,7 +453,7 @@
         overflow: hidden;
       }
       .header_text {
-        width: 520px;
+        width: 455px;
         height: 332px;
         left: 39px;
         top: 189px;
@@ -776,17 +783,17 @@
         
       
         opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
-    background:#F2F2F2;
-    background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  align-items: center;
-  margin: auto;
-      }
+        position: relative;
+        top: 0px;
+        left: 0px;
+        overflow: hidden;
+        background:#F2F2F2;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        align-items: center;
+        margin: auto;
+        }
       .header{
         width: 1440px;
         height: 1741px;
@@ -831,10 +838,10 @@
         top: -40px;
       }
       .header_text {
-        width: 520px;
-        height: 332px;
-        margin-left: 165px;
-        top: 189px;
+        width: 1015px;
+        height: 318px;
+        left: 165px;
+        top: 221px;
         position: absolute;
         overflow: hidden;
         text-align: left;
@@ -842,17 +849,22 @@
       .header_text_header {
         color: rgba(25,24,38,1);
         position: relative;
+        width: 1015px;
         font-weight: 700;
-        font-size: 64px;
-        line-height: 64px;
+        font-size: 88px;
+        line-height: 88px;
+        height: 176px;
         text-align: left;
+        
       }
       .header_text > .header-para {
         color: rgba(25,24,38,1);
         text-align: left;
         font-weight: 400;
-       margin-top: 40px;
-       font-size: 20px;
+        margin-top: 40px;
+        font-size: 20px;
+        line-height: 34px;
+        width: 825px;
       }
       .header .header-info {
         margin-top: 65px;
