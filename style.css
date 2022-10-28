@@ -409,6 +409,11 @@
           flex: 1;
         }
         .container{
+          position: absolute;
+          background-image: url(./assets/bg-main-tablet.png);
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
         position: relative;
         width: 768px;
         height: 1781px;
@@ -1016,6 +1021,381 @@
 
      
       }
-
-
       
+
+
+      /*for small phones*/
+      @media screen and (min-width:360px) and (max-width:374px) {
+        body {
+          font-family: 'IBM Plex Sans',sans-serif;
+      
+          background-color: #F2F2F2;
+          background-image: url(./assets/bg-main-mobile.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          align-items: center;
+          justify-content: center;
+          margin: auto;
+          display: flex;
+          flex: 1;
+          
+        }
+      
+        .container {
+          width: 360px;
+          height: 1945px;
+          opacity: 1;
+          position: relative;
+          top: 0px;
+          left: 0px;
+          overflow: hidden;
+          background:#F2F2F2;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          align-items: center;
+          margin: auto;
+        }
+        /* start header*/
+        .header{
+          height: 520px;
+          
+        }
+        .bg_main_device {
+          width: 360px;
+          height: 480px;
+          background-image: url(./assets/bg-main-mobile.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          opacity: 1;
+          position: absolute;
+          left: 159px;
+          top: -104px;
+          overflow: hidden;
+        }
+        
+        
+        
+        .header_text {
+          width: 312px;
+          height: 320px;
+          position: absolute;
+          top: 136px;
+          left: 24px;
+          overflow: hidden;
+          text-align: left;
+          position: center;
+      
+        }
+        .header_text_header {
+          color: rgba(25,24,38,1);
+          position: relative;
+          font-weight: 700;
+          font-size: 35px;
+          line-height: 48px;
+          text-align: left;
+          margin-bottom: 20px;
+        }
+        .header_text > .header-para {
+          text-align: left;
+          font-size: 14px;
+        }
+        .header .header-info {
+          position: absolute;
+          margin-top: 39px;
+          margin-left: 25px;
+          font-weight: Bold;
+          font-size: 32px;
+          text-align: left;
+        }
+        /*end header*/
+        .main {
+          width:360px;
+          height: 1024px;
+          position: absolute;
+          margin-top: 68px;
+      
+      
+        }
+        .main_section_container {
+          width: 360px;
+          height: 600px;    
+          position: absolute;
+          top: 98px;
+          left: 0px;
+         
+        }
+        .container_black {
+          width: 360px;
+          height: 600px;
+          background: rgba(24,24,37,1);
+          opacity: 1;
+          position: relative;
+          top: 0px;
+          left: 0px;
+          border: 0px solid rgba(150,150,150,1);
+          border-top-left-radius: 12px;
+          border-top-right-radius: 12px;
+          border-bottom-left-radius: 12px;
+          border-bottom-right-radius: 12px;
+          overflow: hidden;
+        }
+        
+        .bg-pattern2 {
+          width: 265px;
+          height: 420px;
+          background:url(./assets/bg-pattern-2.svg);
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          opacity: 1;
+          position: absolute;
+          top: 0px;
+          left: 48px;
+          overflow: hidden;
+        }
+        
+        .phone {
+          width: 208px;
+          height: 430px;
+          background: url(./assets/illustration-app.png);
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          opacity: 1;
+          position: absolute;
+          top: 0px;
+          left: 81px;
+          overflow: hidden;
+        }
+       
+        .container_premium {
+          width: 360px;
+          height: 546px;
+          background: rgba(250,116,83,1);
+          opacity: 1;
+          position: absolute;
+          top: 478px;
+          left: 0px;
+          border-radius: 12px;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 34px;
+          overflow: hidden;
+        }
+       
+          .container_premium > .h2 {
+          width: 302px;
+          color: rgba(252,250,249,1);
+          position: absolute;
+          top: 48px;
+          left: 36px;
+         
+          font-weight: Bold;
+          font-size: 32px;
+          opacity: 1;
+          text-align: left;
+        }
+        .subscription_plan{
+          width: 170px;
+          height: 60px;
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          opacity: 1;
+          position: absolute;
+          text-align: center;
+          place-content: center;
+          place-items: center;
+          top: 300px;
+          left: 42px;
+          place-items: center;
+          justify-content: center;
+          
+          align-content: center;
+      
+          
+        }
+       
+        .price {
+          color: rgba(252,250,249,1);
+          position: absolute;
+          font-weight: 400px;
+          font-size: 50px;
+          opacity: 1;
+          top: 0px;
+          left: 0px;
+          line-height: 52px;
+        }
+        .duration {
+          color: rgba(252,250,249,1);
+          position: absolute;
+          top: 9px;
+          left: 95px;
+          font-weight: 400px;
+          font-size: 20px;
+          line-height: 32px;
+        }
+        .body_text_group {
+          width: 287px;
+          color: rgba(252,250,249,1);
+          position: absolute;
+          top: 100px;
+          left: 36px;
+          font-size: 18px;
+          opacity: 1;
+          text-align: left;
+        }
+          /* start mobile download*/
+        
+        
+        .device {
+          width: 281px;
+          height: 138px;
+          opacity: 1;
+          display: grid;
+          grid-template-rows: repeat(2, 1fr);
+          position: absolute;
+          top: 360px;
+          left: 42px;
+          gap: 16px;
+          
+        }
+       
+        .ios {
+          background: rgba(25,24,38,1);
+          position: relative;
+          border-radius: 12px;
+          display: grid;
+          grid-template-columns: 1fr 2fr;
+          gap: 6px;
+          place-content: center;  
+        }
+        .ios:active{
+          background: #66E2DC;
+      
+        }
+        .cons{
+          width: 142px;
+          height: 32px;
+          background: #F2F2F2;
+          margin: 15px 77px;
+        }
+        .icon_apple {
+          background-image: url(./assets/icon-apple.svg);
+          background-repeat: no-repeat;
+          position: relative;
+          background-position: center;
+          margin-right: -65px;
+        }
+         .ios_download {
+          color: rgba(252,250,249,1);
+          position: relative;
+          font-weight: 700;
+          font-size: 18px;
+        }
+        
+        .andriod {
+          background: rgba(252,250,249,1);
+          position: relative;
+          border-radius: 12px;
+          display: grid;
+          grid-template-columns: 1fr 2fr;
+          gap: 6px;
+          place-content: center;
+          
+        }
+        
+        .andriod:active{
+          background: #FFB964;
+        }
+        .andriod_download {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 32px;
+          color: rgba(25,24,38,1);
+          position: relative;
+          font-size: 18px;
+          left: -20px;
+        }
+        .icon_andriod {
+          background-image: url(./assets/icon-android.svg);
+          background-repeat: no-repeat;
+          position: relative;
+          background-position: center;
+          margin-right: -40px;
+        }
+      
+      /* end of mobile download*/
+        .contact_info {
+          opacity: 1;
+          position: relative;
+          overflow: hidden;
+          width: 312px;
+         height: 169px;
+         margin-bottom: 64px;
+      
+        }
+        .contact_info .h2 {
+         
+          position: relative;
+           
+        }
+        .contact_info .p {
+          position: relative;
+          margin-left: 0;
+          margin-right: 0;
+          margin-top: 32px;
+          margin-bottom: 0;
+      
+        }
+        /* start footer*/
+        .footer{
+          top: 1605px;
+          position: absolute;
+          width: 312px;
+          height: 333px;
+          margin-left: 24px;
+          margin-top: 64px;
+        }
+       /*start social media*/
+          .social_media {
+          position: absolute;
+          width: 100px;
+          height: 20px;
+          margin-left: 0;
+          display: grid;
+          display: inline-grid;
+          grid-template-columns: repeat(3,1fr);
+          gap: 20px;
+          }
+          .facebook {
+          max-width: 100%;
+          background-image: url(./assets/icon-facebook.svg);
+          position: relative;
+          background-repeat: no-repeat;
+          overflow: hidden;
+            
+          }
+          .insta {
+           max-width: 100%;
+           background-image: url(./assets/icon-instagram.svg);
+           position: relative;
+           background-repeat: no-repeat;
+           object-fit: cover;
+           background-position: center center;
+           background-size: cover;
+          }
+          .twitter {
+           max-width: 100%;
+           background-image: url(./assets/icon-twitter.svg);
+           background-repeat: no-repeat;
+           position: relative;
+      
+          }
+           /*end social media*/
+            /*end footer*/
+      /*===end for mobile media=====*/
+        
+      }
