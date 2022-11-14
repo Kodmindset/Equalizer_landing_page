@@ -281,6 +281,10 @@ margin-right: 47px;
     background: #66E2DC;
 
   }
+
+  .ios:hover{
+    cursor: pointer;
+  }
   .cons{
     width: 142px;
     height: 32px;
@@ -314,6 +318,11 @@ margin-right: 47px;
   
   .andriod:active{
     background: #FFB964;
+    cursor: pointer;
+  }
+  .andriod:hover{
+    
+    cursor: pointer;
   }
   .andriod_download {
     font-weight: 700;
@@ -375,14 +384,20 @@ margin-right: 47px;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
     }
+
+   
     .facebook {
     max-width: 100%;
-    background-image: url(./assets/icon-facebook.svg);
+    background: url(./assets/icon-facebook.svg);
     position: relative;
     background-repeat: no-repeat;
     overflow: hidden;
       
     }
+    .facebook:hover{
+      cursor: pointer;
+    }
+    
     .insta {
      max-width: 100%;
      background-image: url(./assets/icon-instagram.svg);
@@ -391,7 +406,13 @@ margin-right: 47px;
      object-fit: cover;
      background-position: center center;
      background-size: cover;
+     
     }
+    .insta:hover{
+      cursor: pointer;
+      
+    }
+    
     .twitter {
      max-width: 100%;
      background-image: url(./assets/icon-twitter.svg);
@@ -399,6 +420,25 @@ margin-right: 47px;
      position: relative;
 
     }
+    .twitter:hover{
+      cursor: pointer;
+      
+    }
+
+    /*for active state*/
+    .facebook:hover{
+      filter :invert(67%) sepia(59%) saturate(374%) hue-rotate(336deg) brightness(100%) contrast(100%);
+
+    }
+    .insta:hover{
+      filter :invert(67%) sepia(59%) saturate(374%) hue-rotate(336deg) brightness(100%) contrast(100%);
+
+    }
+    .twitter:hover{
+      filter :invert(67%) sepia(59%) saturate(374%) hue-rotate(336deg) brightness(100%) contrast(100%);
+
+    }
+    
      /*end social media*/
       /*end footer*/
 /*===end for mobile media=====*/
